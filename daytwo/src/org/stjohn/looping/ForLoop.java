@@ -11,7 +11,9 @@ public class ForLoop {
 		int N = sc.nextInt();
 		for(int i=1; i<=N; i++) {
 			System.out.print(i+" ");
+			sc.close();
 		}
+		
 	}
 
 }
