@@ -8,7 +8,7 @@ public class FinalVariable {
 		final int num = 20;
 		//method
 		public void display() {
-			//final variable could not n=be changed
+			//final variable could not be changed
 			//num=30;
 			System.out.println("The number is: "+num);	
 	}
