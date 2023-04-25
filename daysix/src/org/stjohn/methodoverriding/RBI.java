@@ -5,6 +5,7 @@ public class RBI {
 		return 3.8f;
 	}
 }
+//child class
 class HDFC extends RBI{
 	public float getInterestRate() {
 		System.out.println(super.getInterestRate());
