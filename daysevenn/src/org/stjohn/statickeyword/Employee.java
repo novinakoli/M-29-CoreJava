@@ -1,22 +1,21 @@
-//program to demonstrate on static variable
-package ord.stjohn.statickeyword;
-
+package org.stjohn.statickeyword;
+//program to demonstrate on Static variable
 public class Employee {
-	// non-static private data members
+	
+	//non-static private data members
 	private int empID;
 	private String empName;
+	
+	//static data members
+	static String companyName= "TNS India Foundation";
 
-	// static data members
-	static String companyName = "Apple";
-
-	// parameterized constructor
+	//parameterized constructor
 	public Employee(int empID, String empName) {
 		super();
 		this.empID = empID;
 		this.empName = empName;
 	}
 
-	// tostring method
 	@Override
 	public String toString() {
 		return "Employee [empID=" + empID + ", empName=" + empName + "]";
