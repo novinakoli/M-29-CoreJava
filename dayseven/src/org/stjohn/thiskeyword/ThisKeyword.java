@@ -9,7 +9,7 @@ public class ThisKeyword {
 	public ThisKeyword(int cVVNo, long aTMNo) {
 		super();
 		/* step -> 1 --using this keyword
-		 * it can be used to return the current class instance
+		 * it can be used to return the current class instances
 		 */
 		this.CVVNo = cVVNo;
 		this.ATMNo = aTMNo;
